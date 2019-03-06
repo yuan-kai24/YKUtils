@@ -1,0 +1,14 @@
+各种常用的工具类集合：
+    DateUtils:
+        日期工具类
+        依赖：
+            本地依赖
+        功能：
+            判断日期是否在某个时间段内
+            时间增减:
+                Date addDay(Date,num)
+                Date addMonth(Date,hnum)
+                Date addHour(Date,hnum)
+                Date addMinute(Date,hnum)
+            定时任务:
+                setTimingSask(begin,end,PERIOD_DAY,Runnable)
